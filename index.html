@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    
+     <!-- Assistance from Brackets desktop application -->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,29 +8,55 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <!-- Assistance from W3schools Canvas section -->
+        <canvas id="myCanvas" width="400" height="100" style="border:5px solid #d3d3d3;">
+        Your browser does not support the HTML5 canvas tag.</canvas>
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.font = "100 px Arial";
+            ctx.textAlign = 'center';
+            ctx.strokeText("Zachary Smalley",10,50);
+        </script>
         
-        <h1>Zachary Smalley</h1>
         <img src="https://github.com/zesmall/website/blob/master/Portfolio.jpg?raw=true" alt="Zachary Smalley Profile Picture"/>
-   <nav>
-      <ul>
-      <li><a href="#About Me">About Me</a></li>
-      <li><a href="#Projects">Projects</a></li>
-      <li> <a href="#Education/Training">Education/Training</a></li>
-      <li><a href="#Contact Info">Contact Info</a></li>    
-    </ul>
-  </nav>
-  <div id="About Me">        
-        <h2>About Me</h2>
+        <nav>
+            <ul>
+                <li><a href="#About Me">About Me</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li> <a href="#Education/Training">Education/Training</a></li>
+                <li><a href="#Contact Info">Contact Info</a></li>    
+            </ul>
+        </nav>
+    <div id="About Me">        
+        <h2><strong>About Me</strong></h2>
         <p> I am a United States Marine Corps Veteran with five years of service. I am currently in college pursuing a degree in Software Engineering. I have a background in Signals Intelligence, and basic computing skills. I am married to my wife, Kristen Smalley, and have a Shiba Inu dog named Bella.<br><br><br><br></p>
         </div>
- <div id="Projects">        
+        
+   <div id="Projects">        
         <h3>Projects</h3>
      <p>
-         <a href="https://scratch.mit.edu/users/zesmall/">Scratch</a> </p>
+         <a href="https://scratch.mit.edu/users/zesmall/">Scratch</a> 
+     </p>
+         <a href="https://github.com/zesmall/website/blob/master/Fields%20Report.pdf"> Click Here For Fields Report </a>  
+       
+     <p>My first inline SVG!</p>
+       
+    
+
+       <svg height="110" width="110">
+        <defs>
+       <filter id="f1" x="0" y="0">
+       <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+       </filter>
+        </defs>
+        <rect width="90" height="90" stroke="green" stroke-width="3" fill="indianred" filter="url(#f1)" />
+        Sorry, your browser does not support inline SVG.  
+       </svg>   
      
         </div>     
         
- <div id="Education/Training">        
+    <div id="Education/Training">        
         <h4>Education/Training</h4>
      <p>
 •	American Military University, 6 Credit Hours toward Associate degree in Business, 2016<br>
@@ -38,15 +64,15 @@
 •	Navy Course: A-231-0450, Communications Signals Collection and Processing, 592 Total Hours, 2012-2013<br>
 •	Merrimack High School, High School Diploma, 2008-2012
 
-</p>
-        </div>
+     </p>
+    </div>
         
- <div id="Contact Info">        
+    <div id="Contact Info">        
         <h5>Contact Info</h5>
      <p> Email: Zacksmalley@comcast.net<br>
          Cell-Phone: 6034938098<br>
-          <a href="https://www.linkedin.com/in/zachary-smalley-6b5288149/?trk=profile-badge-cta">LinkedIn Account</a> 
+          <a href="www.linkedin.com/in/zachary-smalley-6b5288149">LinkedIn Account</a> 
      </p>   
-        </div>
+    </div>
     </body>
 </html>
