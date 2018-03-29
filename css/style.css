@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background: lightblue;
+    background: #FFEBCD;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -42,11 +42,12 @@ samp {
 img {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     background: transparent;
-    border: 10px solid rgba(0, 0, 0, 0.12);
+    border: 5px solid rgba(0, 0, 0, 255.12);
     border-radius: 4px;
     display: block;
     margin: 1.3em auto;
-    max-width: 95%;
+    width: 400px;
+    height: 350px;
 }
 
 @keyframes colorize {
